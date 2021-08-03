@@ -18,21 +18,21 @@ public class SnakeLadder {
 		  case 0 :
 		  	System.out.println("no play");
 		  	playerPosition  += 0;
-		    System.out.println("player position is :" + playerPosition);
+		        System.out.println("player position is :" + playerPosition);
 			break;
 		 case 1:
 			System.out.println("ladder");
 			playerPosition  += die;
 			if(playerPosition > 100)
-			   playerPosition  -= die;	   
-				System.out.println("player position is :" + playerPosition);
-			   break;
+		          playerPosition  -= die;	   
+		          System.out.println("player position is :" + playerPosition);
+			  break;
 		 case 2:
 			 System.out.println("Snake") ;
 			 playerPosition  -= die;
 			 if (playerPosition < 0)
-				 playerPosition = 0;
-			     System.out.println("player position is :" + playerPosition);
+			   playerPosition = 0;
+			   System.out.println("player position is :" + playerPosition);
 				}
 			}
 		 System.out.println("Dice rolled is:" + dieCount+ "times");
