@@ -15,16 +15,18 @@ public class SnakeLadder {
 		  case 0 :
 		  	System.out.println("no play");
 		  	playerPosition  += 0;
+		        System.out.println("player position is :" + playerPosition);
 			break;
 		case 1:
 			System.out.println("ladder");
 			playerPosition  += die;
+			System.out.println("player position is :" + playerPosition);	  
 			break;
 		default:
 			System.out.println("Snake") ;
 			playerPosition  -= die;
+			System.out.println("player position is :" + playerPosition);	  
 			break;
 		  }
-		  System.out.println("player position is :" + playerPosition);
 	}
 }
